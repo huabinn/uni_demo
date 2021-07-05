@@ -1,0 +1,1 @@
+<view>在此启动NFC，避免被手机拦截NFC<button data-event-opts="{{[['tap',[['toNFC',['$event']]]]]}}" bindtap="__e">去NFC</button></view>

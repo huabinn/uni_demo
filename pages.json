@@ -1,0 +1,82 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/NFC/NFCenter",
+			"style": {
+				"navigationBarTitleText": "NFC入口"
+			}
+		},
+		{
+			"path": "pages/NFC/NFC",
+			"style": {
+				"navigationBarTitleText": "NFC"
+			}
+		},
+		{
+			"path": "pages/picker/picker",
+			"style": {
+				"navigationBarTitleText": "选择器"
+			}
+		},
+		{
+			"path": "pages/editor/editor",
+			"style": {
+				"navigationBarTitleText": "富文本编辑器"
+			}
+		},
+		{
+			"path": "pages/camera/camera",
+			"style": {
+				"navigationBarTitleText": "拍照",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/video/video",
+			"style": {
+				"navigationBarTitleText": "视频组件"
+			}
+		},
+		{
+			"path": "pages/pay/pay",
+			"style": {
+				"navigationBarTitleText": "小程序支付"
+			}
+		},
+		{
+			"path": "pages/getSetting/getSetting",
+			"style": {
+				"navigationBarTitleText": "获取设置"
+			}
+		},
+		{
+			"path": "pages/location/location",
+			"style": {
+				"navigationBarTitleText": "位置"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"plugins": {
+		"routePlan": {
+		  "version": "1.0.12",
+		  "provider": "wx50b5593e81dd937a"
+		}
+	},
+	"permission": {
+		"scope.userLocation": {
+			"desc": "你的位置信息将用于小程序定位"
+		}
+	}
+}

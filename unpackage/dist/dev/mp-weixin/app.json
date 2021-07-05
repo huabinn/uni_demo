@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/NFC/NFCenter",
+    "pages/NFC/NFC",
+    "pages/picker/picker",
+    "pages/editor/editor",
+    "pages/camera/camera",
+    "pages/video/video",
+    "pages/pay/pay",
+    "pages/getSetting/getSetting",
+    "pages/location/location",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

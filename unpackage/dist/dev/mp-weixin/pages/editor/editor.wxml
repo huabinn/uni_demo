@@ -1,0 +1,1 @@
+<view><editor placeholder="请在此输入" show-img-size="{{true}}"></editor><view class="_br"></view><input style="padding:10px;" type="text" name id focus="{{true}}" placeholder="input"/><view class="_br"></view><button>按键</button></view>

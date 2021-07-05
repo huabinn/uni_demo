@@ -1,0 +1,1 @@
+{"version":3,"sources":["uni-app:///main.js"],"names":["createPage","Page"],"mappings":";;;;;;;;;;kDAAA;AACA;AACA,0M;AACAA,UAAU,CAACC,YAAD,CAAV,C","file":"pages/NFC入口/NFC入口.js","sourcesContent":["import 'uni-pages';\nimport Vue from 'vue'\nimport Page from './pages/NFC入口/NFC入口.vue'\ncreatePage(Page)"],"sourceRoot":""}

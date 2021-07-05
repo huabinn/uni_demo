@@ -1,0 +1,1 @@
+<view><button data-event-opts="{{[['tap',[['getSetting',['$event']]]]]}}" bindtap="__e">点击获取设置信息</button><button data-event-opts="{{[['tap',[['openSetting',['$event']]]]]}}" bindtap="__e">打开设置</button></view>
